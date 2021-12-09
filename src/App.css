@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.template {
+    width: 33.33%;
+    display: inline-block;
+    border: 10px solid transparent;
+}
+
+.App h1 {
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(206, 248, 165);
+}
+
+.template .image {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center;
+}
+
+.meme {
+    text-align: center;
+}
+
+.meme img {
+    width: auto;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.meme input {
+    margin: 10px;
+    padding: 5px;
+    border-color: rgb(37, 220, 20);
+}
+
+.meme button {
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(148, 29, 13);
+    color: white;
+    border-style: none;
+}
